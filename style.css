@@ -7,7 +7,7 @@
     
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700& display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700& display=swap");
 
 :root{
     --main-color:#d3ad7f;
@@ -162,7 +162,7 @@ section{
 
 .header .cart-items-container{
     position: absolute;
-    top:100%; right: 40px;
+    top:135%; right: -300px;
     height: calc(100vh - 9.5rem);
     width: 30rem;
     background: #fff;
@@ -223,7 +223,7 @@ section{
 } 
 
 .home{
-    min-width: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     background:url(coffee1.png) no-repeat;
@@ -269,7 +269,7 @@ section{
     padding: 2rem;
 }
 
-;
+
 .about .row .content h3{
     font-size: 3rem;
     color: #fff;
@@ -599,7 +599,7 @@ section{
     }
 
     .header{
-        padding:1.5rem 2rem
+        padding:1.5rem 2rem;
     }
 
     section{
